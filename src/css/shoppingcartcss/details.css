@@ -1,0 +1,124 @@
+/* Flex Container for Detailed View */
+.flex-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #d1d5db;
+  background-color: #d9d9d9;
+  flex: 1;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.flex-full {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.image-cover {
+  height: 106px;
+  width: 100px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.flex-column-start {
+  display: flex;
+  flex: 1;
+  padding-left: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flex-start-between {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+}
+
+.h5txt {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.kescountertext {
+  margin-top: 8px;
+  color: #029522;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  font-weight: 600;
+}
+
+.bdy {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.oneqtytext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 8px;
+  margin-left: 12px;
+  align-self: flex-end;
+  font-weight: 600;
+  font-size: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.oneqtytext span {
+  padding: 8px 12px;
+}
+
+.oneqtytext input {
+  width: 40px;
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+.kescountertext1 {
+  color: #029522;
+  font-size: 20px;
+  padding-top: 12px;
+  padding-right: 12px;
+}
+
+.divhead {
+  margin-bottom: 8px;
+  display: flex;
+  width: 15%;
+  height: 33px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 0;
+  border: 2px solid #000;
+  background-color: #ffffff;
+}
+
+.imgcont {
+  padding-top: 5px;
+}
