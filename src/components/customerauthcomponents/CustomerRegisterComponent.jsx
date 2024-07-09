@@ -32,7 +32,10 @@ const CustomerRegisterComponent = ({ onToggle }) => {
         <button>Register</button>
       </div>
       <span className="crc-sign-section">
-        I have an account <span className="crc-sign-in-action" onClick={onToggle}>Sign In</span>
+        I have an account{" "}
+        <span className="crc-sign-in-action" onClick={onToggle}>
+          Sign In
+        </span>
       </span>
     </div>
   );

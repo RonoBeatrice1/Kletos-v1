@@ -16,7 +16,9 @@ const CustomerSignInComponent = ({ onToggle }) => {
           <input type="email" placeholder="Enter Password" />
         </div>
       </div>
-      <a className="forgot-password flex">forgot Password ?</a>
+      <a href="/resetpassword" className="forgot-password flex">
+        forgot Password ?
+      </a>
       <div className="csc-buttons flex">
         <button>Sign In</button>
       </div>
