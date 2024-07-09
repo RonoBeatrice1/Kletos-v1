@@ -24,11 +24,12 @@ const AboutPage = () => {
               className="story-image"
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-              exercitationem recusandae non harum cum qui ducimus aut nobis.
-              Quae ex molestiae, eius beatae ea, nisi, magni sit excepturi ipsa
-              neque incidunt! Aut nobis, a minima expedita placeat sint mollitia
-              beatae!
+              Welcome to Kletos, where we connect local artisans to the world.
+              Discover unique, handcrafted products like necklaces and
+              calabashes, celebrating the rich heritage and craftsmanship of our
+              talented local creators. Join us in supporting and sharing their
+              stories, as we showcase their passion through every meticulously
+              crafted piece.
             </p>
           </div>
         </section>
